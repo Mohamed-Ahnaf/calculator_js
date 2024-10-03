@@ -1,0 +1,126 @@
+.cul{
+    border-radius: 20px;
+    background-color: lightblue;
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    box-shadow: rgba(46, 162, 240, 0.89) -5px 5px, rgb(46, 211, 240) -10px 10px, rgba(46, 65, 240, 0.767) -15px 15px, rgb(46, 162, 240) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+
+        height: 100vh;
+        margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.out-display{
+    background-color: rgba(128, 128, 128, 0.356);
+    width:300px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    
+}
+
+.out-display:hover{
+    font-size: 30px;
+    background: none;
+    transition: 1s;
+}
+
+#in-one,
+#in-two{
+    font-family: 'Courier New', Courier, monospace;
+    height: 1000px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+
+
+}
+#sumbtn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+
+}
+#subbtn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+
+}
+#mulbtn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+
+}
+#modbtn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+
+}
+#divbtn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+
+}
+.button{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+   
+}
+#clr-btn{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    border: none;
+    
+    
+}
+
+.copyright{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.404);
+    margin-top: 50px;
+}
