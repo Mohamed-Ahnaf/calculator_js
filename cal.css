@@ -101,10 +101,13 @@ body{
 }
 .button{
     display: flex;
-    gap: 5px;
+
     padding: 10px;
+    
    
 }
+
+
 #clr-btn{
     display: flex;
     gap: 5px;
@@ -124,3 +127,66 @@ body{
     background-color: rgba(128, 128, 128, 0.404);
     margin-top: 50px;
 }
+
+
+@media (max-width: 800px) {
+    
+    
+    .cul {
+        width: 200px;
+        height: 350px;
+        padding: 60px;
+        box-shadow: rgba(46, 162, 240, 0.89) -3px 3px, rgb(46, 211, 240) -6px 6px, rgba(46, 65, 240, 0.767) -9px 9px, rgb(46, 162, 240) -12px 12px;
+    }
+
+    .out-display {
+        width: 250px;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    #in-one,
+    #in-two {
+        height: 800px;
+        width: 80px;
+    }
+
+    #sumbtn, #subbtn, #mulbtn, #modbtn, #divbtn {
+        height: 40px;
+        width: 40px;
+        font-size: large;
+    }
+
+    .button {
+        gap: 2px;
+        padding: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #clr-btn {
+        gap: 3px;
+        padding: 8px;
+    }
+
+    .copyright {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    #sumbtn,#modbtn,#subbtn,#divbtn,#mulbtn{
+        border-radius: 50px;
+        height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+    border-radius: 50px;
+   
+    }
+
+    
+}
+
